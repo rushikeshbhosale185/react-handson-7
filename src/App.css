@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(55, 236, 236),
+    rgb(168, 73, 89)
+  );
+  padding: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+#Navbar {
+  background-image: linear-gradient(to right, #16bffd, #cb3066);
+  padding: 20px;
+  font-size: xx-large;
+  border: 1px solid wheat;
+  margin-bottom: 3rem;
+  font-family: "Courgette", cursive;
+  height: 50px;
+  width: 95vw;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 0.2rem;
+}
+.active {
+  color: rgb(54, 252, 4);
+}
+.notactive {
+  color: white;
+}
+.notactive:hover {
+  color: rgb(18, 211, 211);
+}
+.active:hover {
+  color: rgb(18, 211, 211);
+  /* text-shadow:1px 1px 15px red; */
+}
+.text {
+  margin-left: 5rem;
+  font-size: 1.3rem;
+}
+.header {
+  margin-left: 25vw;
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-gap: 2vh;
+  justify-content: space-between;
+}
+input {
+  height: 50px;
+  text-align: center;
+  border: 1px dotted blue;
+  background-color: cadetblue;
+  color: yellow;
+  border-radius: 8px;
+}
+input:hover {
+  border: 2px solid lime;
+  color: aqua;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.butn {
+  font-size: 1.3rem;
+  padding: 0 2 rem;
+  border: 1px solid rgb(1, 253, 190);
+  border-radius: 10px;
+}
+.butn:hover {
+  background-color: lightgreen;
+  color: blue;
+}
+td {
+  padding: 15px !important;
+  border: 1px dashed rgb(1, 107, 19);
+}
+.algn {
+  text-align: right;
+}
+.box2 {
+  width: 85w;
+  display: flex;
+  justify-content: flex-end;
+}
+.butn2 {
+  font-size: 1.3rem;
+  padding: 0.5rem 4rem;
+  border: 1px solid black;
+  border-radius: 25w;
+  /* margin-left: 2w; */
+  margin: 12px;
+}
+.butn2:hover {
+  color: rgb(0, 247, 255);
+}
+table {
+  width: 95vw;
+  text-align: center;
+}
+thead {
+  background-color: aquamarine;
+  color: olive;
+}
+tbody {
+  background-color: lightcyan;
+  color: darkblue;
+}
+.img {
+  width: 50vw;
+  margin-left: 22vw;
+}
+.main {
+  text-align: center;
+  margin-left: 30vw;
+}
